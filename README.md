@@ -4,7 +4,24 @@
 
 This repo contains a dockerized [Monit](https://mmonit.com/monit/) server.
 
-Use e.g.
+To get a configuration file, call
+
+```
+docker run \                                                                                                                                                                                                                  ps@geraet
+   -d \
+   --name=monit \
+   --restart=always \
+   --expose 2812 \
+   -p 127.0.0.1:2812:2812 \
+   --entrypoint monit ps1337/monit-docker -I && \
+docker exec -it monit bash -c "cat /etc/monitrc" && \
+docker rm -f monit
+```
+
+Save the output to `monitrc`.
+
+
+Then, use e.g.
 
 ```
 docker run \
