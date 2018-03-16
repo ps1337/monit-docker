@@ -7,7 +7,7 @@ This repo contains a dockerized [Monit](https://mmonit.com/monit/) server.
 To get a configuration file, call
 
 ```
-docker run \                                                                                                                                                                                                                  ps@geraet
+docker run \
    -d \
    --name=monit \
    --restart=always \
