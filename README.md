@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ps1337/monit-docker.png?branch=master)](https://travis-ci.org/ps1337/monit-docker)
 
-This repo contains two variants of a dockerized [Monit](https://mmonit.com/monit/) server.
+This repo contains a dockerized [Monit](https://mmonit.com/monit/) server.
 
 Use e.g.
 
