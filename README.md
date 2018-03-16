@@ -14,7 +14,7 @@ docker run \
    -v $PWD/monitrc:/etc/monit/monitrc \
    --expose 2812 \
    -p 127.0.0.1:2812:2812 \
-   ps1337/monit:latest
+   ps1337/monit-docker:latest
 ```
 
 to run this on `localhost`.
